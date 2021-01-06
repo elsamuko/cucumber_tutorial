@@ -4,7 +4,7 @@ Given(/^the number (\d+)$/) do |arg1|
   @num = arg1.to_i
 end
 
-# expression syntax
+# expression syntax, needs cucumber > 3.0
 # https://cucumber.io/docs/cucumber/cucumber-expressions/
 When("I add {float}") do |arg1|
   @num += arg1
