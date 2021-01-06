@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Cucumber",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "/usr/local/bin/cucumber"
+        }
+    ]
+}
