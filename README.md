@@ -6,7 +6,7 @@ Cucumber is a BDD testing framework, which uses a DSL to describe wanted behavio
 
 ```bash
 sudo apt install ruby-dev # to build cucumber
-sudo gem install cucumber
+sudo gem install cucumber # apt's cucumber is v2.4, gem's is v5.2
 sudo gem install rspec-expectations # makes expect() available
 ```
 
@@ -23,6 +23,10 @@ sudo gem install rspec-expectations # makes expect() available
 └── .vscode
     └── launch.json
 ```
+
+## Running
+
+After you have installed cucumber, you can add a test description into the features folder and run `cucumber` from the command line.
 
 ## VS Code
 
