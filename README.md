@@ -4,10 +4,21 @@ Cucumber is a BDD testing framework, which uses a DSL to describe wanted behavio
 
 ## Installation
 
+### Linux
+
 ```bash
 sudo apt install ruby-dev # to build cucumber
 sudo gem install cucumber # apt's cucumber is v2.4, gem's is v5.2
 sudo gem install rspec-expectations # makes expect() available
+```
+
+### macOS
+
+```bash
+brew install ruby-build rbenv
+rbenv install 2.7.2 # ruby 3.0 does not build cucumber yet
+~/.rbenv/versions/2.7.2/bin/gem install cucumber
+~/.rbenv/versions/2.7.2/bin/gem install rspec-expectations
 ```
 
 ## Dir structure
