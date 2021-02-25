@@ -21,6 +21,15 @@ rbenv install 2.7.2 # ruby 3.0 does not build cucumber yet
 ~/.rbenv/versions/2.7.2/bin/gem install rspec-expectations
 ```
 
+### Windows
+
+```bash
+scoop install ruby
+gem install cucumber
+gem install rspec-expectations
+```
+When cucumber complains about missing ANSICON, put `export ANSICON=1` into your .bashrc.
+
 ## Dir structure
 
 ```bash
